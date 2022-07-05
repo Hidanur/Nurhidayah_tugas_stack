@@ -1,0 +1,41 @@
+#include "Stack.h"
+#include <iostream>
+#define MAX 10
+using namespace std;
+
+//NAMA  : NURHIDAYAH
+//KELAS : A
+//NIM   : 1121031065
+//Deskripsi File 
+// Program Stack 21A01
+
+Struct Stack {
+    int top, data[MAX];
+}Tumpukan;
+
+void init(){
+    Tumpukan top == -1;
+}
+bool isEmpty() {
+  return Tumpukan.top = = -1;
+}
+
+bool inFull() {
+    return Tumpukan. top = = MAX-1;
+}
+
+void push() {
+    if (isFull))
+        cout << "\nTumpukan penuh"<<endl;
+     }
+     else {
+     Tumpukan.top++;
+     cout << "\nMasukkan data = " ; cin >> Tumpukkan.data[Tumpukan.top];
+     cout << "Data " << Tumpukan.data{Tumpukan.top} << " masuk stack"<<endl;
+    }
+}
+
+void pop() {
+    printf ("Data yang terambil = 5", tumpuk.data[tumpuk.top]);
+    tumpuk.top--;
+}
